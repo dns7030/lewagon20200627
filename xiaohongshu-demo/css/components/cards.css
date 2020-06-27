@@ -1,0 +1,50 @@
+.card-xhs {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-xhs > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-xhs h2 {
+  font-size: 16px;
+  font-weight: bold;
+  
+  margin: 0;
+  margin-left: 10px;
+}
+
+.card-xhs p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+
+}
+
+
+.flexbox-card-info {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+
+.flexbox-inline {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.avatar-bordered {
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
